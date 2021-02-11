@@ -1,0 +1,17 @@
+#campo{
+    color: #006400;
+    padding: 1px 10px 1px 10px;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 1px;
+    border-radius: 5px;
+}
+#letra{
+    font-family: footlight MT Light, gabriola,Lucida Calligraphy;
+    text-shadow: 4px 4px 4px rgb(99, 98, 98);
+    font-size: 18px;
+}
+
+
+
+

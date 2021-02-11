@@ -1,0 +1,151 @@
+	"workbench.startupEditor": "newUntitledFile",
+    	"terminal.integrated.shell.windows": "c:\\Laragon\\bin\\cmder\\cmder.bat",
+    	"workbench.iconTheme": "material-icon-theme",
+    	"git.enableSmartCommit": true,
+    	"editor.minimap.enabled": false,
+    	"editor.fontFamily": "Fire Code , Consolas, 'Courier New', monospace",
+    	"editor.fontLigatures":true,
+    	"blade.format.enable": true,
+    	"explorer.confirmDelete": false,
+    	"window.zoomLevel": 0,
+    	"git.path": "c:\\Laragon\\bin\\git\\bin\\git.exe",
+    	"workbench.sideBar.location": "left"
+
+
+php artisan storage:link
+
+para cambiar el password en mysql de root
+
+mysql -u root -p
+Enter password: sin password
+use mysql;
+UPDATE mysql.user SET plugin = 'mysql_native_password', authentication_string = PASSWORD('aqui va la nueva clave') WHERE User = 'root';
+
+lo que se debe instalar en visual studio code
+
+Bracket Pair Colorizer 1.0.61
+DotENV 1.0.1
+EditorConfig for VS Code 0.15.1
+HTML Snippets 0.2.1
+IntelliSense for CSS class names in HTML 1.19.0
+Laravel Artisan 0.0.27
+Laravel Blade Snippets 1.21.0
+Laravel Extension Pack 0.6.1
+Laravel goto view 1.3.2
+Laravel Snippets 1.8.0
+Live Share 1.0.2236
+Material Icon Theme 4.1.0
+PHP Debug 1.13.0
+PHP Intelephense 1.4.1
+Spanish Language Pack for Visual Studio Code 1.45.1
+
+
+
+Bracket Pair Colorizer
+ID: coenraads.bracket-pair-colorizer
+Descripción: A customizable extension for colorizing matching brackets
+Versión: 1.0.61
+Editor: CoenraadS
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+DotENV
+ID: mikestead.dotenv
+Descripción: Support for dotenv file syntax
+Versión: 1.0.1
+Editor: mikestead
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+EditorConfig for VS Code
+ID: editorconfig.editorconfig
+Descripción: EditorConfig Support for Visual Studio Code
+Versión: 0.15.1
+Editor: EditorConfig
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+HTML Snippets
+ID: abusaidm.html-snippets
+Descripción: Full HTML tags including HTML5 Snippets
+Versión: 0.2.1
+Editor: Mohamed Abusaid
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets
+IntelliSense for CSS class names in HTML
+ID: zignd.html-css-class-completion
+Descripción: CSS class name completion for the HTML class attribute based on the definitions found in your workspace.
+Versión: 1.19.0
+Editor: Zignd
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion
+Laravel Artisan
+ID: ryannaddy.laravel-artisan
+Descripción: Run Laravel Artisan commands within Visual Studio Code
+Versión: 0.0.27
+Editor: Ryan Naddy
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
+Laravel Blade Snippets
+ID: onecentlin.laravel-blade
+Descripción: Laravel blade snippets and syntax highlight support
+Versión: 1.22.1
+Editor: Winnie Lin
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade
+Laravel Extension Pack
+ID: onecentlin.laravel-extension-pack
+Descripción: A collection of extensions for Laravel development
+Versión: 1.0.0
+Editor: Winnie Lin
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack
+Laravel Extra Intellisense
+ID: amiralizadeh9480.laravel-extra-intellisense
+Descripción: better intellisense for laravel projects.
+Versión: 0.3.2
+Editor: amir
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense
+Laravel goto view
+ID: codingyu.laravel-goto-view
+Descripción: Quick jump to view
+Versión: 1.3.3
+Editor: codingyu
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view
+Laravel Snippets
+ID: onecentlin.laravel5-snippets
+Descripción: Laravel snippets for Visual Studio Code  (Support Laravel 5 and above)
+Versión: 1.9.0
+Editor: Winnie Lin
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets
+laravel-goto-controller
+ID: stef-k.laravel-goto-controller
+Descripción: Alt + click to navigate from a route to a respective controller file
+Versión: 0.0.7
+Editor: stef-k
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=stef-k.laravel-goto-controller
+Live Share
+ID: ms-vsliveshare.vsliveshare
+Descripción: Real-time collaborative development from the comfort of your favorite tools.
+Versión: 1.0.2731
+Editor: Microsoft
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+Material Icon Theme
+ID: pkief.material-icon-theme
+Descripción: Material Design Icons for Visual Studio Code
+Versión: 4.2.0
+Editor: Philipp Kief
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+PHP Debug
+ID: felixfbecker.php-debug
+Descripción: Debug support for PHP with XDebug
+Versión: 1.13.0
+Editor: Felix Becker
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug
+PHP Intelephense
+ID: bmewburn.vscode-intelephense-client
+Descripción: PHP code intelligence for Visual Studio Code
+Versión: 1.5.4
+Editor: Ben Mewburn
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+Spanish Language Pack for Visual Studio Code
+ID: ms-ceintl.vscode-language-pack-es
+Descripción: Language pack extension for Spanish
+Versión: 1.48.3
+Editor: Microsoft
+Vínculo de VS Marketplace: https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es
+
+
+
+php artisan make:migration create_users_table --create=users
+php artisan make:model models/Produccionespera
+$ php artisan make:controller Sirnec/ProduccionenviosController -r

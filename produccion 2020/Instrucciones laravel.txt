@@ -1,0 +1,15 @@
+php artisan make:migration crear_tabla_paises --create=paises en plural
+php artisan make:model models/Nombremodelo    ejemplo=Banco en singular 
+php artisan make:controller Sirnec/NombreController -r  crea controladores
+php artisan make:seeder TablaNombremodeloSeeder
+php artisan make:middleware CheckAdministradorMiddleware crea middleware
+
+php artisan migrate:refresh --seed
+php artisan storage:link
+
+actualiza y muestra los cambios
+
+php artisan cache:clear
+php artisan config:cache
+php artisan route:clear
+php artisan view:clear

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba JVector Map</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-jvectormap-2.0.5.css">
+	<script type="text/javascript" src="jquery-jvectormap-2.0.5.min.js"></script>
+	<script type="text/javascript" src="jquery-jvectormap-world-mill.js"></script>
+</head>
+<body>
+
+  <div id="my-map" style="width: 640px; height: 480px"></div>
+  <script>
+ //  $(function(){
+
+
+var data = {
+  "US": 100, // estados unidos
+  "MX": 200, // mexico
+  "CA": 300, // canada
+  "PE": 400, // peru
+  "AR": 500, // argentina
+  "CL": 600, // chile
+  "BR": 700, // brazil
+  "PY": 800, // paraguay
+  "UR": 900, // uruguay
+  "CO": 1000, // colombia
+};
+
+$('#my-map').vectorMap({
+  map: 'world_mill', // el mapa del mundo
+  series: {
+    regions: [{
+      values: data, // los valores
+      scale: ['#55FF55', '#555555'], // el rango de colores
+      normalizeFunction: 'polynomial' // la formula de normalizacion de datos
+    }]
+  },
+  onRegionTipShow: function(e, el, code){ // al seleccionar una region se muestra el valor que tengan en el array
+    el.html(el.html()+' (Poblacion: '+data[code]+')');
+  }
+});
+
+    // $('#my-map').vectorMap({map: 'world_mill'});
+  //  });
+  </script>
+
+</body>
+</html>
